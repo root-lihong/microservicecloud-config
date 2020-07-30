@@ -1,15 +1,17 @@
-spring:
-  profiles:
-    active:
-    - dev
----
-spring:
-  profiles: dev #开发环境
-  application:
-    name: microservicecloud-config-lh-dev
----
-spring:
-  profiles: test #测试环境
-  application:
-    name: microservicecloud-config-lh-test
+config:
+  info: "master branch,microservicecloud-config/application.yml version=1"
+# spring:
+#   profiles:
+#     active:
+#     - dev
+# ---
+# spring:
+#   profiles: dev #开发环境
+#   application:
+#     name: microservicecloud-config-lh-dev
+# ---
+# spring:
+#   profiles: test #测试环境
+#   application:
+#     name: microservicecloud-config-lh-test
 # 保存格式为UTF-8 + 2
