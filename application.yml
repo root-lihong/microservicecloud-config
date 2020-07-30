@@ -12,4 +12,4 @@ spring:
   profiles: test #测试环境
   application:
     name: microservicecloud-config-lh-test
-# 保存格式为UTF-8 + 1
+# 保存格式为UTF-8 + 2
